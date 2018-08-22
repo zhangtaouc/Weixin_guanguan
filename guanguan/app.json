@@ -1,0 +1,66 @@
+{
+  "pages":[
+    "pages/joke/joke",
+    "pages/about/about",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/zd/zd"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#6A5ACD",
+    "navigationBarTitleText": "开心一刻",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": 
+  {
+    "color": "#000000",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#6A5ACD",
+    "list": [
+      {
+        "pagePath": "pages/joke/joke",
+        "text": "涂鸦",
+        "iconPath": "image/ic_joke_gray.png",
+        "selectedIconPath": "image/ic_joke_blue.png"
+      },
+      {
+        "pagePath": "pages/detail/detail",
+        "text":"备忘录",
+        "iconPath": "assets/todos.png",
+        "selectedIconPath": "assets/todos-active.png"
+      },
+      
+     
+    
+      {
+        "pagePath": "pages/index/index",
+        "text": "时间",
+        "iconPath": "assets/logs.png",
+        "selectedIconPath": "assets/logs-active.png"
+      },
+        {
+          "pagePath": "pages/zd/zd",
+          "text": "字典",
+          "iconPath": "assets/todos.png",
+          "selectedIconPath": "assets/todos-active.png"
+        },
+        {
+          "pagePath": "pages/about/about",
+          "text": "TO YOU",
+          "iconPath": "image/ic_about_gray.png",
+          "selectedIconPath": "image/ic_about_blue.png"
+        }
+      
+    ]
+  },
+  "netWorkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  }
+}

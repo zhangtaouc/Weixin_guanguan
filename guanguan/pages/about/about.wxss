@@ -1,0 +1,40 @@
+.container {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .about {
+  margin: 5px;
+  word-break: break-all;
+}
+
+.container .website {
+  margin-top: 10px;
+  color: chocolate;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .website .item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.github {
+  color: aqua;
+  font-size: 14px;
+  font-style:bold;
+}
+
+.githu {
+  color:chocolate;
+  font-size: 12px;
+}
+
+.g {
+  color: blueviolet;
+  font-size: 11px;
+}

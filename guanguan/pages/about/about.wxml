@@ -1,0 +1,36 @@
+<view class="container">
+  <!--   <image src="  " ></image>-->
+  <!--
+   .container image{
+    margin-top: 40px;
+    width: 180px;
+    height: 50px;
+}
+ -->
+  <!-- <text class="about">I am an Android developer,but also interested in other technology. </text> -->
+
+  <view class="website">
+    <view class="item">
+      <text>关关：</text>
+
+    </view>
+    <view class="item">
+
+      <text class="github">马上就要考研了，加油吧。有什么难过的伤心的，都不要去管他，每天都开开心心的学习。我在这里面加了涂鸦和简单的字典。我也决定要考研了。祝你考研成功。以后有什么需要我帮助的你尽管说，我都尽力而为。加油，哈哈哈</text>
+    </view>
+    <view class="item">
+
+      <text class="github">好好复习</text>
+    </view>
+    <view class="item">
+
+      <text class="githu">记得多锻炼身体 ^_^</text>
+    </view>
+    <view class="item">
+
+      <text class="g">考研一定成功！</text>
+
+    </view>
+  </view>
+</view>
+<audio src="{{audioSrc}}" poster="{{audioPoster}}" name="{{audioName}}" author="{{audioAuthor}}" controls></audio>
